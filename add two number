@@ -1,0 +1,6 @@
+part = float(input("Enter your first number :"))
+whole = float(input("Enter your second number :"))
+def percentage (part, whole):
+  perc =float(part/100)*(whole)
+  print (perc)
+percentage (part , whole) 
